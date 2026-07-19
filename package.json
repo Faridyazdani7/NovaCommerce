@@ -1,13 +1,16 @@
-
 {
   "name": "novacommerce",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@11.11.0",
   "scripts": {
-    "dev": "echo \"Workspace is not configured yet\"",
-    "build": "echo \"Build is not configured yet\"",
-    "lint": "echo \"Lint is not configured yet\"",
-    "test": "echo \"Tests are not configured yet\""
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.4"
   }
 }
